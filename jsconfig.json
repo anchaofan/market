@@ -1,0 +1,17 @@
+// src文件夹别名为@
+
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*":[
+                "src/*"
+            ]
+        }
+    },
+
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
